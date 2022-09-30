@@ -64,7 +64,7 @@ main()
                 else { k=1; sira=1; }
             }
 
-        }//while k
+        }
 
     MuhtemelMahal(i,j);
 
@@ -117,8 +117,8 @@ main()
 
     getchar();
 
-    }//while durum
-
+    }
+    
 }
 
 void Yazdir()
@@ -138,7 +138,7 @@ void Yazdir()
 
         for(j=0;j<8;j++)
         {
-            //printf(" [%d | %d] ",i,j);
+           
 
             switch(duzlem[i][j])
             {
@@ -200,12 +200,12 @@ void Yazdir()
 
                 case -16: { printf("%c[%d;%d;%dm  S  %c[%dm",27, 1, 31, 42,27,0); break; }
 
-            }//switch
+            }
 
-        }//for-ic
+        }
 
     printf("\n\n");
-    }//for-dis
+    }
 
 }
 
